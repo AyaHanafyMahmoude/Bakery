@@ -1,0 +1,326 @@
+/*  start nav bar */
+.div-nav {
+    width           : 84%;
+    background-color: transparent;
+    margin          : 1% 8%;
+    position        : fixed;
+
+}
+
+.div-nav a {
+    color          : #fff;
+    text-decoration: none;
+
+}
+
+.div-nav img {
+    display: inline-block;
+    width  : 13%;
+}
+
+.ul-nav {
+    text-align           : right;
+    margin-right         : 3px;
+    float                : right;
+    width                : 80%;
+    background-attachment: transparent;
+
+}
+
+.ul-nav li {
+    font-size  : 18px;
+    display    : inline-block;
+    width      : 9%;
+    font-family: sans-serif, monospace;
+
+}
+
+.clr {
+    clear: both;
+}
+
+/* end nav bar */
+/* start header */
+.div-head {
+    width     : 100%;
+    height    : 100vh;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+.bg-map {
+    background-color: #403d38;
+}
+
+.bg-gray {
+    background-color: #ddd9d9;
+}
+
+.base-color {
+    color: #403d38;
+}
+
+body {
+    padding: 0px;
+    margin : 0px;
+}
+
+.div-head h2 {
+    color      : #cccccc;
+    font-family: sans-serif, monospace;
+
+}
+
+.div-head h1 {
+    color      : #fff;
+    font-size  : 70px;
+    font-family: sans-serif, monospace;
+
+}
+
+.button1 {
+    background-color: #8e7754;
+    color           : white;
+    border          : 2px solid #8e7754;
+
+
+
+}
+
+.button2 {
+    background-color: transparent;
+    color           : white;
+    border          : 2px solid #fff;
+
+}
+
+.div-head button {
+    font-size    : 16px;
+    font-family  : sans-serif, monospace;
+    padding      : 1% 1%;
+    border-radius: 5px;
+    margin-top   : 2%;
+}
+
+.div-headb:hover {
+    background-color: #fff;
+    color           : black;
+    border-color    : #fff;
+}
+
+
+.background-head {
+    background-image   : url("../images/asset2.ed25c7587f099684d6ff.jpeg");
+    background-size    : cover;
+    background-position: center;
+
+
+}
+
+/* end header */
+.who-we {
+    width     : 100%;
+    margin-top: 5%;
+
+
+
+}
+
+.location {
+    background-color: #f8f8f8;
+    width           : 100%;
+
+    margin-bottom: 5%;
+
+}
+
+.location img {
+    float       : right;
+    width       : 40%;
+    margin-right: 6%;
+    margin-top  : 4%;
+
+}
+
+.location div {
+    float: right;
+    width: 50%;
+}
+
+.who-we img {
+    float      : left;
+    width      : 40%;
+    margin-left: 6%;
+
+}
+
+.who-we div {
+
+    float       : left;
+    width       : 45%;
+    margin-right: 5%;
+
+
+
+}
+.posin{
+    z-index: 12;
+}
+
+.h2-whowe {
+    padding-top: 5%;
+    text-align : center;
+    font-size  : 25px;
+    font-weight: bold;
+    color      : black;
+
+}
+
+.ul-whowe li {
+    margin-left: 5%;
+    /* i puteed here height as the pictures doesnt aqurate */
+    height     : 6%;
+    font-size  : 20px;
+    color      : #686868;
+
+    font-family    : sans-serif, monospace;
+    list-style-type: none;
+}
+
+p {
+    margin-left   : 10%;
+    margin-right  : 10%;
+    text-align    : center;
+    color         : #686868;
+    font-family   : sans-serif, monospace;
+    font-size     : 20px;
+    padding-bottom: 5%;
+}
+
+.donats {
+    width     : 100%;
+    margin-top: 5%;
+}
+
+.donats div {
+    text-align : center;
+    width      : 25%;
+    float      : left;
+    margin-left: 6%;
+}
+
+.donats div img {
+    width: 100%;
+}
+
+.map {
+    text-align      : center;
+    width           : 100%;
+    background-color: #f8f8f8;
+}
+
+.map div {
+    float      : left;
+    width      : 60%;
+    padding-top: 6%;
+
+}
+
+.map div ul {
+    /* display:inline-block; */
+    text-align: center;
+    width     : 100%;
+
+
+}
+
+.map div ul li {
+    list-style-type: none;
+    width          : 49%;
+    height         : 8%;
+    color          : #686868;
+
+}
+
+.map div ul li img {
+    width: 12%;
+
+}
+
+.map img {
+    float      : left;
+    width      : 30%;
+    padding-top: 6%;
+}
+
+.map div label {
+    text-align: left;
+    color     : #686868;
+
+}
+
+.footer {
+    width           : 100%;
+    background-color: #403d38;
+    float           : left;
+}
+
+.first-div {
+    width: 22%;
+    float: left;
+
+    padding-top: 7%;
+
+}
+
+.second-div {
+    width       : 25%;
+    float       : left;
+    padding-left: 1%;
+    padding-top : 5%;
+
+}
+
+.second-div ul li img {
+    width: 6%;
+
+
+
+}
+
+.second-div ul li {
+    list-style-type: none;
+    height         : 8%;
+    text-align     : left;
+}
+
+.second-div ul li p {
+    text-align: center;
+}
+
+.foot {
+    background-color: #353330;
+    width           : 100%;
+    text-align      : center;
+    float           : left;
+    height          : 40%;
+}
+
+.hov:hover {
+    color: white;
+}
+
+.hov {
+    color: #686868
+}
+
+/* .att{
+    width: 100%;
+    background-image: url("../images/bakery-color.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+} */
